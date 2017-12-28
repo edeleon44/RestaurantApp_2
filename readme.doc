@@ -1,0 +1,26 @@
+
+												NOTES, NOTES, THOUGHTS
+
+--------------------------- ////////////// ------------------- ///////////////// -------------------------
+
+1. First connection.js establishes connection to mysql database to be exported for use.
+
+2. O.R.M allows improved interaction with the Database.
+
+3. JS file in models/ folders shapes what the O.R.M will be containing.
+
+4. JS file in controller/ folder provides the routes to deliver the data from contained info within O.R.M
+
+--------------------------- ////////////// -------------------- //////////////// ----------------------------------
+
+												**-- Layout Folder --**
+
+1. main.handlebars is the skeleton for the app and retrieves all of its displays from the index.handlebars
+
+2. index.handlebars pushes a html product to the main.handlebars (Not a fan though.. just me..)
+
+--------------------------- ////////////// ------------------- ////////////////// ---------------------------------
+
+											**-- Keys to the ignition --**
+
+1. server.js ties the whole app together and runs entire code as a whole. 
